@@ -9,6 +9,10 @@ class DBHelper {
    */
   static get DATABASE_URL() {
     const port = 8000 // Change this to your server port
+    if(isOnline){
+    	console.log(window.location.hostname);
+    	return `https://sb39.github.io/Restraunts-Reviews-App-Stage-1/data/restaurants.json`
+    }
     return `http://localhost:${port}/data/restaurants.json`;
   }
 
@@ -178,4 +182,4 @@ class DBHelper {
   } */
 
 }
-
+var isOnline = (window.location.hostname === "sb39.github.io") ? 'true' : '' ;
