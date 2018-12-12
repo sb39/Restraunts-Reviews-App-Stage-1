@@ -9,7 +9,7 @@ For the **Restaurant Reviews-Stage 1** project is a static webpage to a mobile-r
 ### How to run this application:
 
 1. Clone the repository 
-    `$ `
+    `$ git clone https://github.com/sb39/Restraunts-Reviews-App-Stage-1.git`
 2. open terminal inside the folder
 3. launch a local client server using Python from your terminal: 
     (a) Python 2: `python -m SimpleHTTPServer 8000`
